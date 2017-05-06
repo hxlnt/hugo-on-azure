@@ -1,0 +1,2 @@
+# hugoazure
+Hugo on Azure
