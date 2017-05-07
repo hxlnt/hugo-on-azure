@@ -1,0 +1,12 @@
+
+name = "hona"
+license = "MIT"
+licenselink = "https://github.com/hxlnt/hugo-on-azure/themes/hona/blob/master/LICENSE.md"
+description = "hona theme built for Hugo on Azure starter blog"
+homepage = "https://github.com/hxlnt/hugo-on-azure"
+tags = [hugo, azure]
+min_version = 0.19
+
+[author]
+  name = "Rachel Weil / hxlnt"
+  homepage = "http://www.nobadmemories.com"

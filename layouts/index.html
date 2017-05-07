@@ -1,0 +1,9 @@
+{{ partial "header.html" . -}}
+    <h1>{{ .Title }}</h1>
+    <section>
+{{ .Content }}
+<hr>
+<p>Latest update: {{ range first 1 (.Pages.ByDate) }}<a href="{{ .Permalink }}">{{ .Params.title }}</a> ({{ .Date.Format "Monday, Jan 2, 2006" }}){{ end }}</p>
+</section>
+
+{{ partial "footer.html" . -}}

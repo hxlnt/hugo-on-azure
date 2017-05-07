@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+    <h1>{{ .Title }}</h1>
+    <section>
+    {{ .Content }}
+
+  {{ range (.Pages.ByDate) }}
+    <p><a href="{{ .Permalink }}">{{ .Params.title }}</a> <em>posted {{ .Date.Format "Monday, Jan 2, 2006" }}</em></p>
+  {{ end }}
+
+</section>
+{{ partial "footer.html" . }}
