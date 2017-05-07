@@ -22,9 +22,7 @@ cd ..
 cd ..
 cd ..
 cd repository
-call D:\home\site\deployments\tools\hugo\bin\hugo -d D:\home\site\wwwroot 
-if !ERRORLEVEL! NEQ 0 goto error
-
+call D:\home\site\deployments\tools\hugo\bin\hugo -d D:\home\site\wwwroot
 goto end
 
 :error
