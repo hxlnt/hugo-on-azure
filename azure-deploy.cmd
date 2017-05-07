@@ -18,7 +18,7 @@ popd
 REM Generate Hugo static site from source on GitHub
 :build
 echo Building Hugo static site...
-cd ../../../../repository
+call cd ../../../../repository
 call D:\home\site\deployments\tools\hugo\bin\hugo -d D:\home\site\wwwroot 
 if !ERRORLEVEL! NEQ 0 goto error
 
