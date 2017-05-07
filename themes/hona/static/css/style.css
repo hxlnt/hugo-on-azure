@@ -103,7 +103,7 @@ blockquote:before {
 /* 3.2 Headers */
 
 h1 {
-    font-family: Cooper, 'Arial Rounded', Arial, serif;
+    font-family: Cooper, 'Cooper Std', Arial, serif;
     font-size: 3.75rem;
     font-weight:normal;
     line-height: 3.75rem;
