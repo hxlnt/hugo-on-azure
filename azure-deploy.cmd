@@ -19,7 +19,7 @@ REM Generate Hugo static site from source on GitHub
 :build
 cd ../../../../repository
 echo Building Hugo static site...
-call hugo build -d D:\home\site\wwwroot 
+call D:\home\site\deployments\tools\hugo\bin\hugo build -d D:\home\site\wwwroot 
 if !ERRORLEVEL! NEQ 0 goto error
 
 goto end
